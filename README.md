@@ -2,7 +2,7 @@
 
 ## A brief overview
 
-This project is a showcase of how [Edge Impulse](https://edgeimpulse.com/) can be used along with the [Arduino Edge Control board](https://store.arduino.cc/usa/edge-control) to monitor the current environmental conditions and make inferences about when water is needed. The device is also fully off-grid as it uses a battery and solar panel for power.
+This project is a showcase of how [Edge Impulse](https://edgeimpulse.com/) can be used along with the [Arduino Edge Control board](https://store.arduino.cc/usa/edge-control) to monitor the current environmental conditions and make inferences about when water is needed. The device is also fully off-grid as it uses a battery and solar panel for power. You can download the machine learning model as an Arduino library [here](https://studio.edgeimpulse.com/public/34631/latest).
 
 ## Components needed
 

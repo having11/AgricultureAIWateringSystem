@@ -1,9 +1,10 @@
 import matplotlib.pyplot as plt
 from datetime import datetime
+import sys
 import numpy as np
 import pandas as pd
 
-data = np.genfromtxt('./datapoints-2021-06-19 00_33_23.533579.csv', delimiter=',', skip_header=1, names=['Datetime', 'Watermark', 
+data = np.genfromtxt(sys.argv[1], delimiter=',', skip_header=1, names=['Datetime', 'Watermark', 
         'Battery', 'Temperature', 'Humidity'], dtype="S32,i8,f8,f8,f8")
 
 def getTimestamp(datapoint: bytes) -> datetime:
